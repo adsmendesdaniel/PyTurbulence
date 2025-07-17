@@ -3,3 +3,6 @@ Docs/test_file.txt
 
 # SDumont Commands:
 Docs/sdumont_commands.md
+
+# Turbulence scripts:
+Experimental/3d_turbulence_mpi_gpu_experimental.ipynb
