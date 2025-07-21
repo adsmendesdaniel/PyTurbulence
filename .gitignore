@@ -8,3 +8,4 @@ Docs/sdumont_commands.md
 Experimental/3d_turbulence_mpi_gpu_experimental.ipynb
 Experimental/3d_turbulence_mpi_gpu_experimental_bkp_of_kaggle_version.ipynb
 Experimental/3d_turbulence_serial_experimental.ipynb
+Experimental/3d_turbulence_cupyx_scipy_experimental.ipynb
