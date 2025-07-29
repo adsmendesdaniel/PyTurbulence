@@ -46,5 +46,3 @@ Data/metrics_64_bkp/vorticity_field_t8.npy
 
 Data/metrics_128_bkp/velocity_field_t8.npy
 Data/metrics_128_bkp/vorticity_field_t8.npy
-
-Data/metrics_512/energy_timeseries.txt
