@@ -12,11 +12,11 @@ sacctmgr -P show associations user=$USER format=Account,Partition
 
 | Account | Partition           | Timelimit | Nodes | GPU  | GPUs/Node | Memory/GPU | Notes/Issues         |
 |---------|---------------------|-----------|-------|------|-----------|------------|----------------------|
-| ideeps  | gdl                 | infinite  | 1     | v100 | 8         |            | Running forever      |
-| ideeps  | sequana_gpu_dev     | infinite  | 61    | v100 | 4         |            | See error *          |
-| ideeps  | sequana_gpu_shared  | infinite  | ?     | ?    | ?         |            | See error **         |
-| ideeps  | sequana_gpu         | infinite  | 53    | v100 | 4         |            | See error ***        |
-| ideeps  | sequana_gpu_long    | infinite  | 51    | v100 | 8         |            | See error ****       |
+| ideeps  | gdl                 | infinite  | 1     | v100 | 8         | 16gb       | Running forever      |
+| ideeps  | sequana_gpu_dev     | infinite  | 61    | v100 | 4         | ?          | See error *          |
+| ideeps  | sequana_gpu_shared  | infinite  | ?     | ?    | ?         | ?          | See error **         |
+| ideeps  | sequana_gpu         | infinite  | 53    | v100 | 4         | ?          | See error ***        |
+| ideeps  | sequana_gpu_long    | infinite  | 51    | v100 | 8         | ?          | See error ****       |
 
 ### Common SLURM Errors
 
@@ -69,14 +69,14 @@ nvidia-smi
 
 ## Sdumont 2: Other Partitions
 
-| Account | Partition           | Timelimit | Nodes | GPU     | GPUs/Node | Memory/GPU    | Notes/Issues |
+| Account | Partition           | Timelimit | Nodes | GPU     | GPUs/Node | Memory/GPU   | Notes/Issues |
 |---------|---------------------|-----------|-------|---------|-----------|--------------|--------------|
 | ideeps  | lncc-gh200          | unlimited | 16    | Null    | ?         | ?            |              |
-| ideeps  | lncc-gh200_dev      | 00:20:00  | 32    | (S:0-3) | 4         | 120gb (GH200) |              |
-| ideeps  | lncc-gh200_shared   | unlimited | 30    | ?       | 2         | 120gb (GH200) |              |
+| ideeps  | lncc-gh200_dev      | 00:20:00  | 32    | (S:0-3) | 4         | 120gb (GH200)|              |
+| ideeps  | lncc-gh200_shared   | unlimited | 30    | ?       | 2         | 120gb (GH200)|              |
 | ideeps  | lncc-grace          | unlimited | 8     | Null    | ?         | *            | See error *  |
-| ideeps  | lncc-h100_dev       | 00:20:00  | 52    | (S:0-3) | 4         | 80gb (H100)   |              |
-| ideeps  | lncc-h100_shared    | unlimited | 50    | (S:0-1) | 4         | 80gb (H100)   |              |
+| ideeps  | lncc-h100_dev       | 00:20:00  | 52    | (S:0-3) | 4         | 80gb (H100)  |              |
+| ideeps  | lncc-h100_shared    | unlimited | 50    | (S:0-1) | 4         | 80gb (H100)  |              |
 | ideeps  | lncc-mi300a         | unlimited | 10    | Null    | 8         | ??           | See error *  |
 | ideeps  | lncc-mi300a_dev     | unlimited | 16    | (S:0-1) | 2         | ?            | See error ** |
 | ideeps  | lncc-mi300a_shared  | 00:20:00  | 14    | (S:0-1) | 2         | ?            | See error ** |
