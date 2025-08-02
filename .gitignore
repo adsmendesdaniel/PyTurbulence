@@ -15,6 +15,7 @@ Bkp/3d_turbulence_mpi_gpu_experimental_SD1_21_jul_25.ipynb
 Bkp/3D_turbulence_Multi_GPU_NCCL_bkp_SD2_23_jul_2025.py
 Bkp/test_mpi4py_sbatch_arquitetura_arm_bkp_SD2_23_jul_2025.slurm
 Bkp/3D_turbulence_Multi_GPU_NCCL_versao_que_rodou_no_gdl_scratch.py
+Data_analysis/Turbulence_visual_analysis_3D.ipynb
 
 # Big Data files:
 Data/metrics_512/velocity_rank_0_t8.npy
