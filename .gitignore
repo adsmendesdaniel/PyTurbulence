@@ -49,3 +49,6 @@ Data/metrics_128_bkp/velocity_field_t8.npy
 Data/metrics_128_bkp/vorticity_field_t8.npy
 
 Data/metrics_512/vorticity_slice_x0_t8_corrected.npy
+
+Tools/velocity_data.vti
+Tools/vorticity_data.vti
