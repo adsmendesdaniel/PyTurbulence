@@ -36,6 +36,8 @@ Data/metrics_512/vorticity_rank_5_t8.npy
 Data/metrics_512/vorticity_rank_6_t8.npy
 Data/metrics_512/vorticity_rank_7_t8.npy
 
+Data/metrics_256/velocity_field_t0.npy
+Data/metrics_256/vorticity_field_t0.npy 
 Data/metrics_256/velocity_field_t8.npy
 Data/metrics_256/vorticity_field_t8.npy 
 
@@ -52,3 +54,6 @@ Data/metrics_512/vorticity_slice_x0_t8_corrected.npy
 
 Tools/velocity_data.vti
 Tools/vorticity_data.vti
+
+# Paraview converted datasets:
+Tools/Paraview_converted_to_vtk_datasets 
