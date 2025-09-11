@@ -6,6 +6,10 @@ The codebase is organized around Jupyter notebooks and is compatible with free p
 
 > This repository is currently under active development.
 
+<div align="center">
+  <img src="Data_analysis/Images/test_01_image_github_cropped.png" alt="Taylor-Green vorticity amplitude at t=8">
+  <p><strong>Figure 1:</strong> Norm of the vorticity field for a Taylor-Green simulation at t=8.</p>
+</div>
 ---
 
 ## Main Features
