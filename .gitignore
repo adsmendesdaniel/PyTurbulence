@@ -64,3 +64,6 @@ Data/forced_512/
 
 # Papers:
 Docs/Paper_ENMC/papers_tmp
+
+# Thesis exclusive data:
+Data/forced_256_master_thesis/
