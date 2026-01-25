@@ -62,6 +62,11 @@ Tools/Paraview_converted_to_vtk_datasets_validation_taylor_green
 Data_analysis/performance_computed_metrics.ods
 Data/forced_512/
 
+# Data analysis:
+Data_analysis/Barplot_performance.ipynb
+Data_analysis/CFL_analysis_old.ipynb
+Data_analysis/CFL_analysis_new.ipynb
+
 # Papers:
 Docs/Paper_ENMC/papers_tmp
 Data/forced_256_enmc_paper/
