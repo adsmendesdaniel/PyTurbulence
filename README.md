@@ -40,21 +40,21 @@ The performance metrics were computed on the Santos Dumont I supercomputer using
 
 ## Validation
 
-Validation of the solver was done using the Taylor-Green case data made available on the NASA International Workshop on High-order CFD Methods. Results for different mesh resolutions can be seen on Figures 5, 6 and 7.
+Validation of the solver was done using the Taylor-Green (T-G) case data made available on the NASA International Workshop on High-order CFD Methods. Results for different mesh resolutions can be seen on Figures 5, 6 and 7.
 
 <div align="center">
   <img src="Docs/Paper_ENMC/enstrophy_notebook.png"  width=65%  alt="">
-  <p><strong>Figure 5:</strong> Norm of the velocity field for a snapshot of forced HIT.</p>
+  <p><strong>Figure 5:</strong> Temporal evolution of the enstrophy for different grid resolutions compared with reference data.</p>
 </div>
 
 <div align="center">
   <img src="Docs/Paper_ENMC/tke_notebook.png"  width=65%  alt="">
-  <p><strong>Figure 6:</strong> Norm of the velocity field for a snapshot of forced HIT.</p>
+  <p><strong>Figure 6:</strong> Temporal evolution of total kinetic energy for different grid resolutions compared with the NASA reference data.</p>
 </div>
 
 <div align="center">
   <img src="Docs/Paper_ENMC/energy_dissipation_notebook.png"  width=65%  alt="">
-  <p><strong>Figure 7:</strong> Norm of the velocity field for a snapshot of forced HIT.</p>
+  <p><strong>Figure 7:</strong> Temporal evolution of energy dissipation rate $\epsilon$ for different grid resolutions compared with reference data.</p>
 </div>
 
 
